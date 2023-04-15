@@ -16,8 +16,21 @@ body{
     justify-content: center;
 }
 
-h1{
-    letter-spacing: 5px;
+.pokedexWeb{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 15px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+#pokebola{
+    width: 40px;
 }
 
 .pokeContainer{
@@ -39,6 +52,9 @@ h1{
 }
 
 .imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 50%;
     width: 120px;
@@ -48,11 +64,10 @@ h1{
 
 .imgContainer img{
     max-width: 90%;
-    margin-top: 10px;
 }
 
 .info{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .number{
