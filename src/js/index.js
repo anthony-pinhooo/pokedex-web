@@ -1,6 +1,6 @@
 //Variáveis globais
 const pokeContainer = document.getElementById('pokeContainer');
-const pokemonCount = 150
+const pokemonCount = 250
 const colors = {
     fire: '#FDDFDF',
     grass: '#DEFDE0',
